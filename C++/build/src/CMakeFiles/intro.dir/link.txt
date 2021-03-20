@@ -1,0 +1,1 @@
+/bin/clang++-10  -g -flto=thin   CMakeFiles/intro.dir/main.cpp.o  -o intro  /usr/local/lib/libCatch2.a 

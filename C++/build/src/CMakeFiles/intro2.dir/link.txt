@@ -1,0 +1,1 @@
+/bin/clang++-10  -g   CMakeFiles/intro2.dir/main.cpp.o  -o intro2 

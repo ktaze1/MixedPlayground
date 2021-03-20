@@ -1,0 +1,1 @@
+/bin/clang++-10  -flto=thin   CMakeFiles/boo.dir/main.cpp.o  -o boo  libfoo.a 
