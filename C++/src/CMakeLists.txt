@@ -1,1 +1,2 @@
-add_executable(intro main.cpp)
+add_executable(test test.cpp)
+add_executable(GettingStarted 01-GettingStarted.cpp)

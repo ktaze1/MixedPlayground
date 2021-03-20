@@ -1,0 +1,1 @@
+/bin/clang++-10  -g -flto=thin   CMakeFiles/Selim.dir/01-GettingStarted.cpp.o  -o Selim 

@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named intro
+# Target rules for targets named Selim
 
 # Build rule for target.
-intro: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 intro
-.PHONY : intro
+Selim: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Selim
+.PHONY : Selim
 
 # fast build rule for target.
-intro/fast:
-	$(MAKE) -f src/CMakeFiles/intro.dir/build.make src/CMakeFiles/intro.dir/build
-.PHONY : intro/fast
+Selim/fast:
+	$(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/build
+.PHONY : Selim/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 # Help Target
 help:
@@ -131,7 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... intro"
+	@echo "... Selim"
+	@echo "... test"
 .PHONY : help
 
 

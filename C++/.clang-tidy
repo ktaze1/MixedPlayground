@@ -3,5 +3,5 @@ Checks:          '*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-modernize-use-trai
 WarningsAsErrors: '*'
 HeaderFilterRegex: ''
 FormatStyle:     none
-
+HeaderFilter: 'src/'
 

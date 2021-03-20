@@ -18,4 +18,4 @@ endif()
 
 find_package(Catch2 REQUIRED)
 add_subdirectory(src)
-target_link_libraries(intro PRIVATE Catch2::Catch2)
+target_link_libraries(test PRIVATE Catch2::Catch2)

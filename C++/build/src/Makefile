@@ -111,46 +111,88 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/intro.dir/rule:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/intro.dir/rule
-.PHONY : src/CMakeFiles/intro.dir/rule
+src/CMakeFiles/Selim.dir/rule:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Selim.dir/rule
+.PHONY : src/CMakeFiles/Selim.dir/rule
 
 # Convenience name for target.
-intro: src/CMakeFiles/intro.dir/rule
+Selim: src/CMakeFiles/Selim.dir/rule
 
-.PHONY : intro
+.PHONY : Selim
 
 # fast build rule for target.
-intro/fast:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/intro.dir/build.make src/CMakeFiles/intro.dir/build
-.PHONY : intro/fast
+Selim/fast:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/build
+.PHONY : Selim/fast
 
-main.o: main.cpp.o
+# Convenience name for target.
+src/CMakeFiles/test.dir/rule:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/test.dir/rule
+.PHONY : src/CMakeFiles/test.dir/rule
 
-.PHONY : main.o
+# Convenience name for target.
+test: src/CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+01-GettingStarted.o: 01-GettingStarted.cpp.o
+
+.PHONY : 01-GettingStarted.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/intro.dir/build.make src/CMakeFiles/intro.dir/main.cpp.o
-.PHONY : main.cpp.o
+01-GettingStarted.cpp.o:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/01-GettingStarted.cpp.o
+.PHONY : 01-GettingStarted.cpp.o
 
-main.i: main.cpp.i
+01-GettingStarted.i: 01-GettingStarted.cpp.i
 
-.PHONY : main.i
+.PHONY : 01-GettingStarted.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/intro.dir/build.make src/CMakeFiles/intro.dir/main.cpp.i
-.PHONY : main.cpp.i
+01-GettingStarted.cpp.i:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/01-GettingStarted.cpp.i
+.PHONY : 01-GettingStarted.cpp.i
 
-main.s: main.cpp.s
+01-GettingStarted.s: 01-GettingStarted.cpp.s
 
-.PHONY : main.s
+.PHONY : 01-GettingStarted.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/intro.dir/build.make src/CMakeFiles/intro.dir/main.cpp.s
-.PHONY : main.cpp.s
+01-GettingStarted.cpp.s:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/01-GettingStarted.cpp.s
+.PHONY : 01-GettingStarted.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -159,11 +201,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Selim"
 	@echo "... edit_cache"
-	@echo "... intro"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test"
+	@echo "... 01-GettingStarted.o"
+	@echo "... 01-GettingStarted.i"
+	@echo "... 01-GettingStarted.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

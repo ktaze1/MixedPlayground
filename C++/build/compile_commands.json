@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/src",
-  "command": "/bin/clang++-10    -g -flto=thin   -fcolor-diagnostics -o CMakeFiles/intro.dir/main.cpp.o -c /home/kaan/Desktop/GitHub/MixedPlayground/C++/src/main.cpp",
-  "file": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/src/main.cpp"
+  "command": "/bin/clang++-10    -g -flto=thin   -fcolor-diagnostics -o CMakeFiles/Selim.dir/01-GettingStarted.cpp.o -c /home/kaan/Desktop/GitHub/MixedPlayground/C++/src/01-GettingStarted.cpp",
+  "file": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/src/01-GettingStarted.cpp"
+},
+{
+  "directory": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/src",
+  "command": "/bin/clang++-10    -g -flto=thin   -fcolor-diagnostics -o CMakeFiles/test.dir/test.cpp.o -c /home/kaan/Desktop/GitHub/MixedPlayground/C++/src/test.cpp",
+  "file": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/src/test.cpp"
 }
 ]
