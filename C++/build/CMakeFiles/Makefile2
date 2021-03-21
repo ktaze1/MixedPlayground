@@ -71,6 +71,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
+src/all: src/CMakeFiles/Loops.dir/all
 src/all: src/CMakeFiles/GettingStarted.dir/all
 src/all: src/CMakeFiles/test.dir/all
 
@@ -82,10 +83,38 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
+src/clean: src/CMakeFiles/Loops.dir/clean
 src/clean: src/CMakeFiles/GettingStarted.dir/clean
 src/clean: src/CMakeFiles/test.dir/clean
 
 .PHONY : src/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Loops.dir
+
+# All Build rule for target.
+src/CMakeFiles/Loops.dir/all:
+	$(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/depend
+	$(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles --progress-num=3,4 "Built target Loops"
+.PHONY : src/CMakeFiles/Loops.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Loops.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Loops.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/Loops.dir/rule
+
+# Convenience name for target.
+Loops: src/CMakeFiles/Loops.dir/rule
+
+.PHONY : Loops
+
+# clean rule for target.
+src/CMakeFiles/Loops.dir/clean:
+	$(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/clean
+.PHONY : src/CMakeFiles/Loops.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/GettingStarted.dir
@@ -121,7 +150,7 @@ src/CMakeFiles/GettingStarted.dir/clean:
 src/CMakeFiles/test.dir/all:
 	$(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/depend
 	$(MAKE) -f src/CMakeFiles/test.dir/build.make src/CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles --progress-num=3,4 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles --progress-num=5,6 "Built target test"
 .PHONY : src/CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.

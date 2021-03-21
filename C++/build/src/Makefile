@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/Loops.dir/rule:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Loops.dir/rule
+.PHONY : src/CMakeFiles/Loops.dir/rule
+
+# Convenience name for target.
+Loops: src/CMakeFiles/Loops.dir/rule
+
+.PHONY : Loops
+
+# fast build rule for target.
+Loops/fast:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/build
+.PHONY : Loops/fast
+
+# Convenience name for target.
 src/CMakeFiles/GettingStarted.dir/rule:
 	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/GettingStarted.dir/rule
 .PHONY : src/CMakeFiles/GettingStarted.dir/rule
@@ -167,6 +182,33 @@ test/fast:
 	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/01-GettingStarted.cpp.s
 .PHONY : 01-GettingStarted.cpp.s
 
+07-Loops.o: 07-Loops.cpp.o
+
+.PHONY : 07-Loops.o
+
+# target to build an object file
+07-Loops.cpp.o:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/07-Loops.cpp.o
+.PHONY : 07-Loops.cpp.o
+
+07-Loops.i: 07-Loops.cpp.i
+
+.PHONY : 07-Loops.i
+
+# target to preprocess a source file
+07-Loops.cpp.i:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/07-Loops.cpp.i
+.PHONY : 07-Loops.cpp.i
+
+07-Loops.s: 07-Loops.cpp.s
+
+.PHONY : 07-Loops.s
+
+# target to generate assembly for a file
+07-Loops.cpp.s:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/07-Loops.cpp.s
+.PHONY : 07-Loops.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -201,12 +243,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Loops"
 	@echo "... edit_cache"
 	@echo "... GettingStarted"
 	@echo "... test"
 	@echo "... 01-GettingStarted.o"
 	@echo "... 01-GettingStarted.i"
 	@echo "... 01-GettingStarted.s"
+	@echo "... 07-Loops.o"
+	@echo "... 07-Loops.i"
+	@echo "... 07-Loops.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

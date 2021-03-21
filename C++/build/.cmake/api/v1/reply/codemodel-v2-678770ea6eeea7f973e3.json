@@ -29,7 +29,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -57,6 +59,13 @@
 					"id" : "GettingStarted::@145eef247bfb46b6828c",
 					"jsonFile" : "target-GettingStarted-Debug-710389343296b4bf8cca.json",
 					"name" : "GettingStarted",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Loops::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Loops-Debug-060d61052b1da2185259.json",
+					"name" : "Loops",
 					"projectIndex" : 0
 				},
 				{

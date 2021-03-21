@@ -1,0 +1,1 @@
+/bin/clang++-10  -g -flto=thin   CMakeFiles/Loops.dir/07-Loops.cpp.o  -o Loops 

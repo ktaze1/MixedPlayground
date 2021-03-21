@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Loops
+
+# Build rule for target.
+Loops: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Loops
+.PHONY : Loops
+
+# fast build rule for target.
+Loops/fast:
+	$(MAKE) -f src/CMakeFiles/Loops.dir/build.make src/CMakeFiles/Loops.dir/build
+.PHONY : Loops/fast
+
+#=============================================================================
 # Target rules for targets named GettingStarted
 
 # Build rule for target.
@@ -144,6 +157,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Loops"
 	@echo "... GettingStarted"
 	@echo "... test"
 .PHONY : help

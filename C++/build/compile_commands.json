@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/src",
+  "command": "/bin/clang++-10    -g -flto=thin   -fcolor-diagnostics -o CMakeFiles/Loops.dir/07-Loops.cpp.o -c /home/kaan/Desktop/GitHub/MixedPlayground/C++/src/07-Loops.cpp",
+  "file": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/src/07-Loops.cpp"
+},
+{
+  "directory": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/src",
   "command": "/bin/clang++-10    -g -flto=thin   -fcolor-diagnostics -o CMakeFiles/GettingStarted.dir/01-GettingStarted.cpp.o -c /home/kaan/Desktop/GitHub/MixedPlayground/C++/src/01-GettingStarted.cpp",
   "file": "/home/kaan/Desktop/GitHub/MixedPlayground/C++/src/01-GettingStarted.cpp"
 },
