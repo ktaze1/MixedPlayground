@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Selim
+# Target rules for targets named GettingStarted
 
 # Build rule for target.
-Selim: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Selim
-.PHONY : Selim
+GettingStarted: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GettingStarted
+.PHONY : GettingStarted
 
 # fast build rule for target.
-Selim/fast:
-	$(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/build
-.PHONY : Selim/fast
+GettingStarted/fast:
+	$(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/build
+.PHONY : GettingStarted/fast
 
 #=============================================================================
 # Target rules for targets named test
@@ -144,7 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Selim"
+	@echo "... GettingStarted"
 	@echo "... test"
 .PHONY : help
 

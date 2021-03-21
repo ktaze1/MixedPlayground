@@ -71,7 +71,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/Selim.dir/all
+src/all: src/CMakeFiles/GettingStarted.dir/all
 src/all: src/CMakeFiles/test.dir/all
 
 .PHONY : src/all
@@ -82,37 +82,37 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/Selim.dir/clean
+src/clean: src/CMakeFiles/GettingStarted.dir/clean
 src/clean: src/CMakeFiles/test.dir/clean
 
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/Selim.dir
+# Target rules for target src/CMakeFiles/GettingStarted.dir
 
 # All Build rule for target.
-src/CMakeFiles/Selim.dir/all:
-	$(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/depend
-	$(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles --progress-num=1,2 "Built target Selim"
-.PHONY : src/CMakeFiles/Selim.dir/all
+src/CMakeFiles/GettingStarted.dir/all:
+	$(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/depend
+	$(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles --progress-num=1,2 "Built target GettingStarted"
+.PHONY : src/CMakeFiles/GettingStarted.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/Selim.dir/rule: cmake_check_build_system
+src/CMakeFiles/GettingStarted.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Selim.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/GettingStarted.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kaan/Desktop/GitHub/MixedPlayground/C++/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/Selim.dir/rule
+.PHONY : src/CMakeFiles/GettingStarted.dir/rule
 
 # Convenience name for target.
-Selim: src/CMakeFiles/Selim.dir/rule
+GettingStarted: src/CMakeFiles/GettingStarted.dir/rule
 
-.PHONY : Selim
+.PHONY : GettingStarted
 
 # clean rule for target.
-src/CMakeFiles/Selim.dir/clean:
-	$(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/clean
-.PHONY : src/CMakeFiles/Selim.dir/clean
+src/CMakeFiles/GettingStarted.dir/clean:
+	$(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/clean
+.PHONY : src/CMakeFiles/GettingStarted.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/test.dir

@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/Selim.dir/rule:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Selim.dir/rule
-.PHONY : src/CMakeFiles/Selim.dir/rule
+src/CMakeFiles/GettingStarted.dir/rule:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/GettingStarted.dir/rule
+.PHONY : src/CMakeFiles/GettingStarted.dir/rule
 
 # Convenience name for target.
-Selim: src/CMakeFiles/Selim.dir/rule
+GettingStarted: src/CMakeFiles/GettingStarted.dir/rule
 
-.PHONY : Selim
+.PHONY : GettingStarted
 
 # fast build rule for target.
-Selim/fast:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/build
-.PHONY : Selim/fast
+GettingStarted/fast:
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/build
+.PHONY : GettingStarted/fast
 
 # Convenience name for target.
 src/CMakeFiles/test.dir/rule:
@@ -146,7 +146,7 @@ test/fast:
 
 # target to build an object file
 01-GettingStarted.cpp.o:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/01-GettingStarted.cpp.o
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/01-GettingStarted.cpp.o
 .PHONY : 01-GettingStarted.cpp.o
 
 01-GettingStarted.i: 01-GettingStarted.cpp.i
@@ -155,7 +155,7 @@ test/fast:
 
 # target to preprocess a source file
 01-GettingStarted.cpp.i:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/01-GettingStarted.cpp.i
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/01-GettingStarted.cpp.i
 .PHONY : 01-GettingStarted.cpp.i
 
 01-GettingStarted.s: 01-GettingStarted.cpp.s
@@ -164,7 +164,7 @@ test/fast:
 
 # target to generate assembly for a file
 01-GettingStarted.cpp.s:
-	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/Selim.dir/build.make src/CMakeFiles/Selim.dir/01-GettingStarted.cpp.s
+	cd /home/kaan/Desktop/GitHub/MixedPlayground/C++/build && $(MAKE) -f src/CMakeFiles/GettingStarted.dir/build.make src/CMakeFiles/GettingStarted.dir/01-GettingStarted.cpp.s
 .PHONY : 01-GettingStarted.cpp.s
 
 test.o: test.cpp.o
@@ -201,8 +201,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Selim"
 	@echo "... edit_cache"
+	@echo "... GettingStarted"
 	@echo "... test"
 	@echo "... 01-GettingStarted.o"
 	@echo "... 01-GettingStarted.i"

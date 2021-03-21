@@ -58,6 +58,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/Selim.dir/DependInfo.cmake"
+  "src/CMakeFiles/GettingStarted.dir/DependInfo.cmake"
   "src/CMakeFiles/test.dir/DependInfo.cmake"
   )
