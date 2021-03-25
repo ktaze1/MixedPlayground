@@ -26,7 +26,7 @@ int main() {
 
 
     // right way:
-    std::atomic<int> atomicShared = 0;
+    std::atomic<int> atomicShared {0};
 
     std::thread atomicAdder(atomicAdd, 1, 1000, &atomicShared);
 
