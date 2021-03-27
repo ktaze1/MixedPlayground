@@ -16,6 +16,10 @@
     <CudaCompile Include="02-3-VectorAdditionGPU-BlockAndThread.cu" />
     <CudaCompile Include="02-VectorAddition.cu" />
     <CudaCompile Include="01-HelloWorld.cu" />
+    <CudaCompile Include="03-StructuresOfArrays.cu" />
+    <CudaCompile Include="04-ArrayOfStructures.cu" />
+    <CudaCompile Include="05-MatrixTranspose.cu" />
+    <CudaCompile Include="06-TransposeNoBankConflict.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0345166D-76CA-4AFC-8F6A-23BEF6A9CDE4}</ProjectGuid>

@@ -6,5 +6,9 @@
     <CudaCompile Include="02-2-VectorAdditionGPU-Thread.cu" />
     <CudaCompile Include="02-1-VectorAdditionGPU-Block.cu" />
     <CudaCompile Include="02-3-VectorAdditionGPU-BlockAndThread.cu" />
+    <CudaCompile Include="03-StructuresOfArrays.cu" />
+    <CudaCompile Include="04-ArrayOfStructures.cu" />
+    <CudaCompile Include="05-MatrixTranspose.cu" />
+    <CudaCompile Include="06-TransposeNoBankConflict.cu" />
   </ItemGroup>
 </Project>
