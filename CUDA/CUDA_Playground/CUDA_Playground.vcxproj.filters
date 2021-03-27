@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CudaCompile Include="HelloWorld.cu" />
+    <CudaCompile Include="01-HelloWorld.cu" />
+    <CudaCompile Include="02-VectorAddition.cu" />
+    <CudaCompile Include="02-2-VectorAdditionGPU-Thread.cu" />
+    <CudaCompile Include="02-1-VectorAdditionGPU-Block.cu" />
+    <CudaCompile Include="02-3-VectorAdditionGPU-BlockAndThread.cu" />
   </ItemGroup>
 </Project>

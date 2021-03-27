@@ -11,7 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="HelloWorld.cu" />
+    <CudaCompile Include="02-1-VectorAdditionGPU-Block.cu" />
+    <CudaCompile Include="02-2-VectorAdditionGPU-Thread.cu" />
+    <CudaCompile Include="02-3-VectorAdditionGPU-BlockAndThread.cu" />
+    <CudaCompile Include="02-VectorAddition.cu" />
+    <CudaCompile Include="01-HelloWorld.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0345166D-76CA-4AFC-8F6A-23BEF6A9CDE4}</ProjectGuid>
