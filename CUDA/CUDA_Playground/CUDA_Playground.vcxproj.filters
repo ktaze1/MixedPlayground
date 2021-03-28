@@ -3,12 +3,23 @@
   <ItemGroup>
     <CudaCompile Include="01-HelloWorld.cu" />
     <CudaCompile Include="02-VectorAddition.cu" />
-    <CudaCompile Include="02-2-VectorAdditionGPU-Thread.cu" />
-    <CudaCompile Include="02-1-VectorAdditionGPU-Block.cu" />
-    <CudaCompile Include="02-3-VectorAdditionGPU-BlockAndThread.cu" />
+    <CudaCompile Include="02-VectorAdditionGPU-Thread.cu" />
+    <CudaCompile Include="02-VectorAdditionGPU-Block.cu" />
+    <CudaCompile Include="02-VectorAdditionGPU-BlockAndThread.cu" />
     <CudaCompile Include="03-StructuresOfArrays.cu" />
     <CudaCompile Include="04-ArrayOfStructures.cu" />
     <CudaCompile Include="05-MatrixTranspose.cu" />
     <CudaCompile Include="06-TransposeNoBankConflict.cu" />
+    <CudaCompile Include="07-ImageScaling.cu" />
+    <CudaCompile Include="09-UnifiedMemory.cu" />
+    <CudaCompile Include="09-UnifiedMemory-Initialized.cu" />
+    <CudaCompile Include="09-UnifiedMemory-64Align.cu" />
+    <CudaCompile Include="09-UnifiedMemory-DataPrefetch.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="07-scrImagePgmPpmPackage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="07-scrImagePgmPpmPackage.h" />
   </ItemGroup>
 </Project>

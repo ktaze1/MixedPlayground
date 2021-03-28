@@ -1,7 +1,7 @@
 ﻿
 #include <device_launch_parameters.h>
-#include <cuda_runtime.h>
-
+#include <cuda_runtime_api.h>
+#include <device_functions.h>
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -90,9 +90,9 @@ int main(void) {
 	matrix_transpose_naive << <gridSize, blockSize >> > (d_a, d_b);
 
 	// Copy result back to host
-	//cudaMemcpy(b, d_b, size, cudaMemcpyDeviceToHost);
+	cudaMemcpy(b, d_b, size, cudaMemcpyDeviceToHost);
 
-//print_output(a,b);
+	//print_output(a,b);
 
 
 	matrix_transpose_shared << <gridSize, blockSize >> > (d_a, d_b);
@@ -100,7 +100,7 @@ int main(void) {
 	// Copy result back to host
 	cudaMemcpy(b, d_b, size, cudaMemcpyDeviceToHost);
 
-	//print_output(a,b);
+	print_output(a,b);
 
 	free(a); free(b);
 	cudaFree(d_a); cudaFree(d_b);

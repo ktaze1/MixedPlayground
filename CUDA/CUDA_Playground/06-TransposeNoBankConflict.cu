@@ -1,15 +1,12 @@
 ﻿
-#include "cuda_runtime.h"
+#include "cuda_runtime_api.h"
 #include "device_launch_parameters.h"  
 
 #include<stdio.h>
 #include<stdlib.h>
 
-#ifndef CUDACC_RTC
-#define CUDACC_RTC
-#endif // !(CUDACC_RTC)
-
 #include <device_functions.h>
+#include <crt/device_functions.h>
 
 #define N 1024
 #define BLOCK_SIZE 32 
@@ -98,12 +95,12 @@ int main(void) {
 	//print_output(a,b);
 
 
-	matrix_transpose_shared << <gridSize, blockSize >> > (d_a, d_b);
+	matrix_transpose_shared <<<gridSize, blockSize >> > (d_a, d_b);
 
 	// Copy result back to host
 	cudaMemcpy(b, d_b, size, cudaMemcpyDeviceToHost);
 
-	//print_output(a,b);
+	print_output(a,b);
 
 
 
